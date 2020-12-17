@@ -36,3 +36,10 @@ function ButtonClick(){
     // Build Table with Filtered Data
     buildTable(filterData);
 }
+// `on` Function to attach an Event to the Handler Function
+d3.selectAll("#filter-btn").on("click", ButtonClick);
+// Build Table with data.js 
+buildTable(tableData);
+
+
+//2
